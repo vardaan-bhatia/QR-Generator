@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="qr.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>QR <span>Code</span> Generator</h1>
+    <div class="outer">
+      <p>Enter your text or url</p>
+      <input type="text" placeholder="Text or URL" id="t" />
+      <div id="qrbox">
+        <img src="" alt="LOADING" id="ig" />
+      </div>
+
+      <button id="bu">Generate QR Code</button>
+    </div>
+    <footer>Powered by <span>@VardaanBhatia</span></footer>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
